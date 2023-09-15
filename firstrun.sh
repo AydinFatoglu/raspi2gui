@@ -10,6 +10,7 @@ sudo raspi-config nonint do_boot_wait 0 &&
 sudo raspi-config nonint do_vnc 0
 
 
+
 # Define the lines to add
 lines_to_add="hdmi_force_hotplug=1
 hdmi_group=2
@@ -20,9 +21,10 @@ config_file="/boot/config.txt"
 
 # Check if the config file exists
 if [ -f "$config_file" ]; then
-    # Use sed to insert the lines below #hdmi_safe=1
-    sed -i '/#hdmi_safe=1/a '"$lines_to_add" "$config_file"
+    # Use sudo and tee to insert the lines below #hdmi_safe=1
+    sudo bash -c "sed '/#hdmi_safe=1/a $lines_to_add' $config_file > temp_config.txt && mv temp_config.txt $config_file"
     echo "Lines added to $config_file"
+    sudo reboot
 else
     echo "Config file $config_file not found."
 fi
