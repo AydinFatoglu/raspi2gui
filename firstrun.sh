@@ -12,7 +12,7 @@ sudo raspi-config nonint do_vnc 0 &&
 curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/cfg_vnc.sh && 
 sudo chmod +x cfg_vnc.sh && 
 sh cfg_vnc.sh && 
-sudo apt-get install terminator && 
+sudo apt-get install terminator -y && 
 sudo reboot
 
 
