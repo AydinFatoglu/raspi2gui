@@ -16,6 +16,9 @@ sudo apt-get install terminator -y &&
 curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/pythonupdate.sh && 
 sudo chmod +x pythonupdate.sh && 
 sh pythonupdate.sh && 
+curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/menuedit.sh && 
+sudo chmod +x menuedit.sh && 
+sh menuedit.sh && 
 sudo reboot
 
 
