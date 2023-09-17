@@ -1,4 +1,3 @@
-sudo apt-get remove python3 -y && sudo apt-get remove python2.7 -y && 
 curl -O https://www.python.org/ftp/python/3.10.13/Python-3.10.13.tgz && 
 tar -zxvf Python-3.10.13.tgz && 
 cd Python-3.10.13 && 
