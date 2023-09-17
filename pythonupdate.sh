@@ -6,4 +6,6 @@ cd Python-3.10.13 &&
 sudo make altinstall && 
 cd /usr/bin && 
 sudo rm python && 
+sudo rm python3 && 
+sudo rm python2.7 && 
 sudo ln -s /usr/local/bin/python3.10 python
