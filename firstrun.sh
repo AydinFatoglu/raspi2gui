@@ -13,12 +13,13 @@ curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/cfg_vnc.sh
 sudo chmod +x cfg_vnc.sh && 
 sh cfg_vnc.sh && 
 sudo apt-get install terminator -y && 
+sudo apt-get install thonny -y && 
 #curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/pythonupdate.sh && 
-sudo chmod +x pythonupdate.sh && 
-sh pythonupdate.sh && 
-curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/menuedit.sh && 
-sudo chmod +x menuedit.sh && 
-sh menuedit.sh && 
+#sudo chmod +x pythonupdate.sh && 
+#sh pythonupdate.sh && 
+#curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/menuedit.sh && 
+#sudo chmod +x menuedit.sh && 
+#sh menuedit.sh && 
 sudo reboot
 
 
