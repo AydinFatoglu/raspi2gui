@@ -14,6 +14,8 @@ sudo chmod +x cfg_vnc.sh &&
 sh cfg_vnc.sh && 
 sudo apt-get install terminator -y && 
 sudo apt-get install thonny -y && 
+pip install selenium && 
+sudo apt-get install chromium-chromedriver && 
 sudo reboot
 
 
