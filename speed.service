@@ -1,0 +1,9 @@
+[Unit]
+Description=Speed Test Result Service
+After=network.target
+
+[Service]
+ExecStart=/bin/sh -c "command1 && sleep 5 && command2"
+
+[Install]
+WantedBy=multi-user.target
