@@ -16,6 +16,9 @@ sudo apt-get install terminator -y &&
 sudo apt-get install thonny -y && 
 pip install selenium && 
 sudo apt-get install chromium-chromedriver && 
+curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/speedtestinstall.sh && 
+sudo chmod +x speedtestinstall.sh && 
+sh speedtestinstall.sh && 
 sudo reboot
 
 
