@@ -7,8 +7,9 @@ curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/firstrun.s
 
 - Works with bouth raspian buster or bullseye 
 
+![alt text](https://img001.prntscr.com/file/img001/KLTnyULnTSejWh1T4pb9dw.png)
 
-https://prnt.sc/l3K66xf7lnXn
+![alt text](https://img001.prntscr.com/file/img001/HUMYEGSPRV2bKYqAOEQUXQ.png)
 
 https://prnt.sc/YCzCZgSV86KO
 
