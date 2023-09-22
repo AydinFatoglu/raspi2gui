@@ -15,13 +15,7 @@ curl -O https://raw.githubusercontent.com/AydinFatoglu/raspi2gui/main/firstrun.s
 
 ![](https://img001.prntscr.com/file/img001/LvzXbgWSQbyB4BLZNMx24A.png)
 
-https://prnt.sc/YCzCZgSV86KO
-
-https://prnt.sc/8DPOMHGgBCL5
-
-https://prnt.sc/p8k7izGhPRSc
-
-https://prnt.sc/goqLM3Ag--ww
+![](https://img001.prntscr.com/file/img001/SLsTyWvYQMS2OIiMxbObcw.png)
 
 https://prnt.sc/WRhgxFC-atEH
 
